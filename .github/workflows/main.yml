@@ -14,7 +14,7 @@ jobs:
       - name: Extract Flutter project
         run: |
           mkdir -p app
-          unzip -q huseni_vasila_contractor_flutter.zip -d app
+          unzip -q huseni_vasila_attendance_pdf.zip -d app
 
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
